@@ -10,7 +10,7 @@ public class Main {
     double averageQuantityDays = (quantityDaysWithLoss1 + quantityDaysWithLoss2) / 2;
         System.out.println("Если потеря веса составит по " + weightLoss1Gr + " г в день, то потребуется " + quantityDaysWithLoss1 + " дней");
         System.out.println("Если потеря веса составит по " + weightLoss2Gr + " г в день, то потребуется " + quantityDaysWithLoss2 + " дней");
-        System.out.println("В среднем на похудение на 7 кг потребуется " + averageQuantityDays + " дней");
+        System.out.println("В среднем для похудения на 7 кг потребуется " + averageQuantityDays + " дней");
 
 
 
