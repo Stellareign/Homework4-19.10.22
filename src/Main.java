@@ -1,22 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задание 7:");
-    float weightLoss1Gr = 250;
-    float weightLoss2Gr = 500;
-    int desiredResultKg = 7;
-    int desiredResultGr = desiredResultKg * 1000;
-    double quantityDaysWithLoss1 = desiredResultGr / weightLoss1Gr;
-    double quantityDaysWithLoss2 = desiredResultGr / weightLoss2Gr;
-    double averageQuantityDays = (quantityDaysWithLoss1 + quantityDaysWithLoss2) / 2;
-        System.out.println("Если потеря веса составит по " + weightLoss1Gr + " г в день, то потребуется " + quantityDaysWithLoss1 + " дней");
-        System.out.println("Если потеря веса составит по " + weightLoss2Gr + " г в день, то потребуется " + quantityDaysWithLoss2 + " дней");
-        System.out.println("В среднем для похудения на 7 кг потребуется " + averageQuantityDays + " дней");
+        System.out.println("Задание 8:");
+    double salaryMashaRub = 67_760.0;
+        double salaryMashaIncrease = salaryMashaRub * 1.10;
+        double YearSalaryMasha = salaryMashaRub * 12;
+        double YearSalaryMashaIncrease = salaryMashaIncrease * 12;
+        double increaseAnnualIncomeMasha = YearSalaryMashaIncrease - YearSalaryMasha;
+        System.out.println("Маша теперь в месяц получает " + salaryMashaIncrease + " годовой доход вырос на " + increaseAnnualIncomeMasha + " рублей");
+    double salaryDenisRub = 83_690.0;
+        double salaryDenisIncrease = salaryDenisRub * 1.10;
+        double salaryYearDenis = salaryDenisRub * 12;
+        double salaryYearDenisIncrease = salaryDenisIncrease * 12;
+        double increaseAnnualIncomeDenis = salaryYearDenisIncrease - salaryYearDenis;
+        System.out.println("Денис теперь в месяц получает " + salaryDenisIncrease + " годовой доход вырос на " + increaseAnnualIncomeDenis  + " рублей");
+    double salaryKristinaRub = 76_230.0;
+        double salaryKristinaIncrease = salaryKristinaRub * 1.10;
+        double salaryYearKristina = salaryKristinaRub + 12;
+        double salaryYearKristinaIncrease = salaryKristinaIncrease * 12;
+        double increaseAnnualIncomeKristina = salaryYearKristinaIncrease - salaryYearKristina;
+        System.out.println("Кристина теперь в месяц получает " + salaryKristinaIncrease + " годовой доход вырос на " + increaseAnnualIncomeKristina  + " рублей");
 
-
-
-
-
-
-
-    }
+       }
 }
